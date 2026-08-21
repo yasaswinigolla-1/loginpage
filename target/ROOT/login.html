@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="login-box">
+
+    <hr>
+
+    <h1>User Login</h1>
+
+    <form action="LoginServlet" method="post">
+
+        <div class="input-box">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="text"
+                   name="username"
+                   placeholder="username"
+                   required>
+        </div>
+
+        <div class="input-box">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password"
+                   name="password"
+                   placeholder="Password"
+                   required>
+        </div>
+
+        <div class="options">
+            <label>
+                <input type="checkbox">
+                Remember Me
+            </label>
+
+            <a href="#">Forgot Password?</a>
+        </div>
+
+        <button type="submit">LOGIN</button>
+
+    </form>
+
+    <hr>
+
+</div>
+
+</body>
+</html>
